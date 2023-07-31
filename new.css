@@ -1,0 +1,36 @@
+h1{
+color: blanchedalmond;
+background-color: brown;
+line-height: 45px;
+font-weight: bolder;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;}
+
+h2{
+color: aliceblue;
+background-color: blueviolet;
+text-align: center;
+font-weight: bolder;
+
+}
+
+ table, tr, td,th{
+border: 1px solid gray;
+border-collapse: collapse;
+
+}
+
+#im{
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+ 
+#tb1{
+    color: blue;
+    
+}
+
+#tb2{
+    color: brown;
+    
+}

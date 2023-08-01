@@ -1,0 +1,26 @@
+table{
+    border: 5px solid red;
+}
+
+tr, td, th{
+    border: 1px solid blueviolet;
+    border-collapse: collapse;
+}
+div {
+    background-color: rgb(28, 204, 28);
+    padding: 0;
+    border: 3px solid black;
+    margin: 0;
+    
+  }
+  
+   p{
+     background-color: white;
+     padding: 50px;
+     border: 3px solid red;
+     margin: 30px;
+
+
+
+
+   }

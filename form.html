@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <h1 id="fm">HTML Form</h1>
+    <img src="img/download.jpg" alt="loading" id="imm">
+    <h1 id="fm">UNIVERCITY FORM</h1>
     <form action="/submit_form" method="POST">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required ><br>
@@ -36,9 +37,27 @@
             <option value="uk">UK</option>
             <option value="canada">Canada</option>
             <option value="australia">Australia</option>
-            <br>
+            <br><br>
         </select><br>
-
+        <label for="subject">Select your favorite subject:</label>
+        <select id="subject">
+            <optgroup label="diff subject">
+                <option value="maths">maths</option>
+                <option value="chemistory">chemistory</option>
+                <option value="physics">physics</option>
+            </optgroup>
+            <optgroup label="easy subject">
+                <option value="history">history</option>
+                <option value="hindi">hindi</option>
+                <option value="bio">bio</option>
+            </optgroup>
+            <optgroup label="like subject">
+                <option value="sanskrit">sanskrit</option>
+                <option value="geography">geography</option>
+                <option value="shahitye">shahitye</option>
+            </optgroup>
+        </select>
+<br><br>
         <label for="message">Message:</label>
         <br>
         <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
@@ -53,5 +72,7 @@
 
         <input type="submit" value="Submit">
     </form>
+
+
 </body>
 </html>

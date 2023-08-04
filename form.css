@@ -41,3 +41,19 @@ height: 150px;
 #imm{
   height: 150px;width: 580px;
 }
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+  transform: scale(1.2) rotate(45deg);
+}

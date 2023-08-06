@@ -1,0 +1,29 @@
+#clg{
+    height: 230px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+#h11{
+    color: brown;
+    text-align: center;
+}
+
+#p1{
+    padding-left: 5%;
+}
+
+form{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e8e5f7;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 500px;
+    text-transform: capitalize;
+
+
+}
+

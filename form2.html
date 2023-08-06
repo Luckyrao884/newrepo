@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+    <img src="img/college.jpg" alt="college img" id="clg">
+    <h1 id="h11">MAHARAJA COLLEGE</h1>
+    <p id="p1">Fill out the Form to participate </p>
+    <form action="backend.php">
+        <label for="full_name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br>
+        <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        <br>
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" required></textarea><br>
+        <br>
+        <label for="course">Preferred Course:</label>
+        <select id="course" name="course" required>
+            <option value="">Select Course</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Business Administration">Business Administration</option>
+            <option value="Electrical Engineering">Electrical Engineering</option>
+            
+        </select><br>
+        <br>
+        <label for="transcript">Academic Transcript:</label>
+        <input type="file" id="transcript" name="transcript" accept=".pdf,.doc,.docx" required><br>
+    <br>
+        <label for="passport_photo">Passport Photo:</label>
+        <input type="file" id="passport_photo" name="passport_photo" accept="image/*" required><br>
+    <br>
+        <input type="submit" value="Submit">
+
+        <p>THANK YOU FOR PARTICIPATE</p>
+  
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+.bt1{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.pera1{
+    color: blue;
+}
+
+
+table,th,td,tr{
+    border: 1px solid red;
+border-collapse: collapse;}

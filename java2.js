@@ -45,7 +45,3 @@ function comboss() {
 //   alert(boss)
 }
 
-
-function handleinput1() {
-   var val = document.getElementById("name").value=val.toUppercase()
-}

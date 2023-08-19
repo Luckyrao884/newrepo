@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>List of Numbers</h1>
+    
+    <ul id="numberList">
+      
+    </ul>
+
+<br>
+<h1>Addition of Numbers </h1>
+    
+<button onclick="calculateSum()">Calculate Sum</button>
+<p id="result"></p>
+
+    <script>
+     
+        var numberList = document.getElementById("numberList");
+
+        for (var i = 1; i <= 5; i++) {
+            var listItem = document.createElement("li");
+            listItem.textContent = "Number " + i;
+            numberList.appendChild(listItem);
+        //  alert(i);
+        }
+
+        function calculateSum() {
+            var sum = 0;
+            var input;
+            
+            while (true) {
+                input = prompt("Enter a number (or cancel to finish):");
+                
+                if (input === null) {
+                    break;
+                }
+                
+                var num = parseFloat(input);
+                
+                if (isNaN(num)) {
+                    document.getElementById("result").textContent = "Invalid input. Sum: " + sum;
+                    break;
+                } else {
+                    sum += num;
+                }
+            }
+            
+            document.getElementById("result").textContent = "Sum: " + sum;
+        }
+    </script>
+    
+   
+
+</body>
+</html>

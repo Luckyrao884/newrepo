@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>function exprassion</h1>
+     <br>
+     <button onclick="checkage()">alert age</button>
+<br><br>
+<button id="double" onclick="getnumber()">double of any number</button>
+<p id="outputMessage"></p>
+<script>
+ function checkage(){ age = prompt("what is your age",18);
+if( age <18){
+    alert("hello");
+    }
+    else{ alert("greetings");}
+}
+
+function getnumber(){
+    
+  let number = prompt("enter a number");
+    // if(number = '');
+    alert(`number is ${number*2}`);
+ 
+    document.getElementById("outputMessage").textContent = " your number is : " + number; 
+}
+
+</script>
+
+
+
+</body>
+</html>

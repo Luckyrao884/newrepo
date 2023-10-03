@@ -1,0 +1,48 @@
+table, tr, td,th{
+    border: 1px solid gray;
+    text-decoration: none;
+    border-collapse: collapse;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+}
+
+td{
+    color: rgb(230, 54, 54);
+}
+
+#co1{
+    color: red;
+    /* background-color:navajowhite; */
+    border: none;
+}
+
+.mail, .tel{
+    text-decoration: none;
+}
+
+.sec{
+    text-decoration: none;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    padding: 80px 30px 20px;
+    border: 2px solid #000;
+    margin: 20px;
+    /* text-align: center; */
+}
+
+.fm{
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    background-color: bisque;
+}
+
+.immg{
+    width: 400px;
+    
+}

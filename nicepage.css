@@ -76,6 +76,7 @@ body, html{
    
  #chkbtn{
     display: block;
+    margin: 20px;
  }
   .navbar ul{
     width: 100%;
